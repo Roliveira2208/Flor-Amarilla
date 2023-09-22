@@ -2,6 +2,9 @@ body
 {
 	background-color: #c0fdff;
 	font-family: Arial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 h1
 {
@@ -132,20 +135,4 @@ div.petalo
   position: absolute;
   top: 25px;
   width: 345px;
-}
-
-#postit{
-  position:fixed;
-  background:#e9ff70;
-  width:200px;
-  height:200px;
-  margin:20px;
-  right:10px;
-  padding:20px;
-}
-
-#main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
